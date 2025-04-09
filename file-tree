@@ -1,0 +1,17 @@
+.
+├── envs
+│   ├── dev
+│   │   └── terragrunt.hcl
+│   └── prod
+│       └── terragrunt.hcl
+├── modules
+│   ├── network
+│   │   ├── main.tf
+│   │   └── variable.tf
+│   └── vm
+│       ├── main.tf
+│       └── variable.tf
+└── network
+    └── terragrunt.hcl
+
+7 directories, 7 files
